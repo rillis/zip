@@ -15,6 +15,16 @@
 
 **Methods:**  
 ```java
-com.github.rillis.Zip.zip()
+//Zip multiple files/folders. Returns .zip file itself.
+com.github.rillis.Zip.zip(File[] fileToZip, File finalZipFile) : File  
+throws FileNotFoundException, IOException.
+
+//unimplemented
 com.github.rillis.Zip.unZip()
+```
+
+**Config:**  
+```java
+//Buffer size
+int com.github.rillis.Zip.BUFFER_SIZE
 ```
