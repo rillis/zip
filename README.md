@@ -7,7 +7,7 @@
 <dependency>
   <groupId>com.github.rillis</groupId>
   <artifactId>zip</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 </dependency>
 ```
 
@@ -19,8 +19,9 @@
 com.github.rillis.Zip.zip(File[] fileToZip, File finalZipFile) : File  
 throws FileNotFoundException, IOException.
 
-//unimplemented
-com.github.rillis.Zip.unZip()
+//Unzip to destination folder, create folder if it doesn't exists. Returns destFolder. 
+com.github.rillis.Zip.unZip(File zipFile, File destFolder) : File
+throws FileNotFoundException, IOException.
 ```
 
 **Config:**  
