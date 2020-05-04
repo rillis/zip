@@ -1,8 +1,7 @@
-# Config API  
+# ZIP 
 
 ![Maven](https://img.shields.io/maven-central/v/com.github.rillis/zip)
 ![License](https://img.shields.io/github/license/rillis/zip)
-
 
 ```xml
 <dependency>
