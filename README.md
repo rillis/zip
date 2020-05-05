@@ -13,19 +13,22 @@
 
 ## Docs
 
+**Classes:** 
+com.github.rillis.Zip  
+
 **Methods:**  
 ```java
 //Zip multiple files/folders. Returns .zip file itself.
-com.github.rillis.Zip.zip(File[] fileToZip, File finalZipFile) : File  
+Zip.zip(File[] fileToZip, File finalZipFile) : File  
 throws FileNotFoundException, IOException.
 
 //Unzip to destination folder, create folder if it doesn't exists. Returns destFolder. 
-com.github.rillis.Zip.unZip(File zipFile, File destFolder) : File
+Zip.unZip(File zipFile, File destFolder) : File
 throws FileNotFoundException, IOException.
 ```
 
 **Config:**  
 ```java
 //Buffer size
-int com.github.rillis.Zip.BUFFER_SIZE
+int Zip.BUFFER_SIZE
 ```
