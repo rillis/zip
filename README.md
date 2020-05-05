@@ -13,7 +13,7 @@
 
 ## Docs
 
-**Classes:** 
+**Classes:**   
 com.github.rillis.Zip  
 
 **Methods:**  
@@ -30,5 +30,5 @@ throws FileNotFoundException, IOException.
 **Config:**  
 ```java
 //Buffer size
-int Zip.BUFFER_SIZE
+int Zip.BUFFER_SIZE = 4096
 ```
